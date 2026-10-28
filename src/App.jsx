@@ -6,8 +6,21 @@ function App() {
     <>
       <section className="App bg-gray-100 min-h-screen flex items-center justify-center ">
         <div className=" ">
+
+
+          <div className="flex flex-col items-center justify-center gap-4">
+
+            <h2> Our Pricing </h2>
+
+            <div className="flex items-center justify-center gap-4"> 
+
+           <button> Annually</button>
+                <button className="w-7 h-7 border-2 border-gray-300 rounded-lg  "> </button>
+
+            </div>
+             </div>
           {" "}
-          {/* THE PARENT DIV */}
+          {/* THE PARENT DIV For the images  */} 
           <div className="  ">
             <img
               src={image1}
@@ -25,6 +38,8 @@ function App() {
             </div>{" "}
             {/* THE FIRST DIV */}
           </div>{" "} 
+
+
           {/* THE FIRST DIV */}
         </div>{" "}
         {/* THE PARENT DIV */}
