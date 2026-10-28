@@ -15,18 +15,22 @@ function App() {
             <div className="flex items-center justify-center gap-4"> 
 
            <button> Annually</button>
-                <button className="w-7 h-7 border-2 border-gray-300 rounded-lg  "> </button>
+                <button className="w-7 h-7 bg-red-500 rounded-full  "> </button>
 
             </div>
              </div>
           {" "}
           {/* THE PARENT DIV For the images  */} 
+          <div>  
+
+       
           <div className="  ">
             <img
               src={image1}
               alt="Background Bottom Left Image"
               className="fixed left-0 bottom-0 w-70 h-auto "
             /> 
+                </div>
 
       
             <div>
@@ -37,8 +41,9 @@ function App() {
               /> 
             </div>{" "}
             {/* THE FIRST DIV */}
-          </div>{" "} 
+      {" "} 
 
+   </div>
 
           {/* THE FIRST DIV */}
         </div>{" "}
