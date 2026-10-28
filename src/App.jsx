@@ -8,9 +8,9 @@ function App() {
         <div className=" ">
 
 
-          <div className="flex flex-col items-center justify-center gap-4">
+          <div className="flex flex-col gap-4">
 
-            <h2> Our Pricing </h2>
+            <h2 className=" text-3xl font-semibold text-gray-600"> Our Pricing </h2>
 
             <div className="flex items-center justify-center gap-4"> 
 
