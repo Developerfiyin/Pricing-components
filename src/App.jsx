@@ -7,7 +7,7 @@ function App() {
       <section className=" bg-gray-100 min-h-screen  ">
         <div className=" ">
           {/* THE DIV WITH PRICING AND BUTTONS IS BELOW THIS COMMENT */}
-          <div className="flex flex-col items-center justify-center gap-6">
+          <div className="flex flex-col items-center justify-center gap-4">
             <h2 className=" text-3xl p-4 font-semibold text-gray-600 ">
               {" "}
               Our Pricing{" "}
@@ -18,16 +18,16 @@ function App() {
                 {" "}
                 Annually
               </button>
-              <div className="flex justify-center w-full gap-2 bg-gray-300">
-                <button className="w-9 h-9 bg-gray-300 rounded-lg">
-                  <button className="w-5 h-5 bg-red-500 rounded-full ">
+              <div className="flex gap-2 bg-[hsl(238,63%,64%)] rounded-2xl px-1 py-1">
+                <button className="w-5 h-5 bg-white rounded-full"> </button>
+                  <button className="w-5 h-5 bg-lavender rounded-full "> </button>
                     {" "}
-                  </button>
-                </button>
+              
+              
               </div>
               <button className=" cursor-pointer text-sm font-semibold text-gray-600 hover:text-gray-400">
                 {" "}
-                Annually
+                Monthly
               </button>
             </div>
           </div>{" "}
