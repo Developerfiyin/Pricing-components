@@ -14,12 +14,14 @@ function App() {
               alt="Background Bottom Left Image"
               className="fixed left-0 bottom-0 w-70 h-auto "
             /> 
+
+      
             <div>
               <img
                 src={image}
                 alt="Background Top Right Image"
                 className="fixed top-0 right-0 w-70 h-auto "
-              />
+              /> 
             </div>{" "}
             {/* THE FIRST DIV */}
           </div>{" "} 
