@@ -122,7 +122,7 @@ function App() {
       </button>
     </div>
           </div>
-        </div>{" "}
+        </div>
         {/* THE PARENT DIV */}
       </section>
     </>
