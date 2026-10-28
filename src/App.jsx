@@ -20,10 +20,9 @@ function App() {
               </button>
               <div className="flex gap-2 bg-[hsl(238,63%,64%)] rounded-2xl px-1 py-1">
                 <button className="w-5 h-5 bg-white rounded-full"> </button>
-                  <button className="w-5 h-5 bg-lavender rounded-full "> </button>
-                    {" "}
-              
-              
+                <button className="w-5 h-5 bg-lavender rounded-full ">
+                  {" "}
+                </button>{" "}
               </div>
               <button className=" cursor-pointer text-sm font-semibold text-gray-600 hover:text-gray-400">
                 {" "}
@@ -47,14 +46,12 @@ function App() {
                 className="fixed top-0 right-0 w-70 h-auto "
               />
             </div>{" "}
-            
           </div>
-
-
-
-
-
-
+          <div className="flex items-center justify-center gap-4">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>{" "}
         {/* THE PARENT DIV */}
       </section>
