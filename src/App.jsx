@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <section className=" bg-gray-100 min-h-screen  ">
-        <div className=" ">
+        <div className=" flex flex-col ">
           {/* THE DIV WITH PRICING AND BUTTONS IS BELOW THIS COMMENT */}
           <div className="flex flex-col items-center justify-center gap-4">
             <h2 className=" text-3xl p-4 font-semibold text-gray-600 ">
@@ -31,7 +31,7 @@ function App() {
               </button>
             </div>
           </div>{" "}
-          {/* THE PARENT DIV For the images  */}
+          {/* THE PARENT DIV For the images with stripes  */}
           <div>
             <div className="  ">
               <img
@@ -47,9 +47,14 @@ function App() {
                 className="fixed top-0 right-0 w-70 h-auto "
               />
             </div>{" "}
-            {/* THE FIRST DIV */}{" "}
+            
           </div>
-          {/* THE FIRST DIV */}
+
+
+
+
+
+
         </div>{" "}
         {/* THE PARENT DIV */}
       </section>
